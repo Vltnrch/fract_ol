@@ -6,7 +6,7 @@
 /*   By: vroche <vroche@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/01/26 18:53:59 by vroche            #+#    #+#             */
-/*   Updated: 2015/03/13 17:19:26 by vroche           ###   ########.fr       */
+/*   Updated: 2015/03/17 14:26:03 by vroche           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ void	ft_printkey_color(void)
 	ft_putstr(".:| Key |:.\n\
 ...........\n\n\
 Mouse wheel : Zoom -/+ on mouse position \
-			(for Julia : mouse needs to be desactivated)\n\
+(for Julia : mouse needs to be desactivated)\n\
 Up/Down/Left/Right : Move\n\
 -/+ : Zoom -/+\n\
 Page Down/Page Up : maxiterations -/+\n\

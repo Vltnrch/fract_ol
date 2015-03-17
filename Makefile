@@ -6,11 +6,13 @@
 #    By: vroche <vroche@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/02/08 23:30:25 by vroche            #+#    #+#              #
-#    Updated: 2015/03/11 14:20:57 by vroche           ###   ########.fr        #
+#    Updated: 2015/03/17 14:38:14 by vroche           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fractol
+
+FLAGS = -Wall -Werror -Wextra
 
 LIB = -framework OpenGL -framework AppKit \
 	  	-L./minilibx_macos -lmlx -L./libft -lft
@@ -32,7 +34,7 @@ all: $(NAME)
 $(NAME):
 	make -C ./libft
 	make -C ./minilibx_macos
-	gcc -Wall -Werror -Wextra $(HDR) $(LIB) $(C) -o $(NAME)
+	gcc $(FLAGS) $(HDR) $(LIB) $(C) -o $(NAME)
 
 clean:
 	make -C ./libft clean
