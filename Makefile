@@ -17,7 +17,7 @@ FLAGS = -Wall -Werror -Wextra
 LIB = -framework OpenGL -framework AppKit \
 	  	-L./minilibx_macos -lmlx -L./libft -lft
 
-HDR = -I./libft
+HDR = -I./libft/includes -I./minilibx_macos
 
 C = ft_burningship.c \
 	ft_hsvtorgb.c \
